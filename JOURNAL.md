@@ -1,18 +1,17 @@
 ## Week 7 — Issue selection
 
-**Issue link:** [paste link here]
+**Issue link:** https://github.com/ascherj/pathreview/issues/117
 
-**Issue title:** [paste issue title here]
+**Issue title:** API docs don't include example curl commands
+ #117
 
-**Tier:** [ ] Tier 1 [ ] Tier 2 [ ] Tier 3
+
+**Tier:** [X] Tier 1 [ ] Tier 2 [ ] Tier 3
 
 **Problem summary:**
-[In 3–5 sentences, in your own words: what the issue is (not a copy-paste of
-the title), what is currently broken or missing, and what a successful fix
-would accomplish. Naming the part of the codebase it affects is helpful context.]
-
-**Branch name:** [paste branch name here]
+The API documentation explains the available endpoints but does not include example `curl` commands for testing them. This makes it harder for developers who are setting up the project for the first time to verify that the API is running correctly. Adding example `curl` commands will provide an easy way to test each endpoint.
+**Branch name:** docs/117-API-docs-issue
 
 **Setup confirmation:** [ ] App runs locally at localhost:5173
 
-**Cohort ledger:** [ ] Issue added to cohort ledger
+**Cohort ledger:** [X] Issue added to cohort ledger
