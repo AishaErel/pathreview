@@ -12,6 +12,6 @@
 The API documentation explains the available endpoints but does not include example `curl` commands for testing them. This makes it harder for developers who are setting up the project for the first time to verify that the API is running correctly. Adding example `curl` commands will provide an easy way to test each endpoint.
 **Branch name:** docs/117-API-docs-issue
 
-**Setup confirmation:** [X] Yes, App runs locally at localhost:5173
+**Setup confirmation:** []  App does not run locally at localhost:5173 because of errors and issues which will be dealt with later by
 
 **Cohort ledger:** [X] Yes, Issue added to cohort ledger
