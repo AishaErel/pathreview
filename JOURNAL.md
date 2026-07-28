@@ -31,7 +31,7 @@ The API documentation explains the available endpoints but does not include exam
 **Reproduction summary:**
 I started the application locally and successfully tested the POST /auth/register and POST /auth/login endpoints using curl. Although the endpoints work, docs/API.md does not provide example curl commands, requiring new developers to determine the request syntax themselves.
 
-**PLAN.md link:** ..
+**PLAN.md link:** https://github.com/AishaErel/pathreview/blob/docs/117-API-docs-issue/PLAN.md
 
 **Walkthrough video (recommended):**
 
