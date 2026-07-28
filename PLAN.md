@@ -14,18 +14,23 @@ The actual behavior is that developers must determine the correct URL, HTTP meth
 
 The main file involved is:
 
-- `docs/API.md`
+* `docs/API.md`
 
-I will also review the following files to confirm the correct routes, request fields, and response behavior:
+I will also review the implementation of the documented API endpoints to confirm the correct routes, request fields, headers, and response behavior for the following endpoints:
 
-- The authentication route or controller file that defines `POST /auth/register`
-- The authentication route or controller file that defines `POST /auth/login`
-- `POST /profiles` — Create a profile with resume and GitHub username.
-- `GET /profiles/{profile_id}` — Retrieve a profile.
-- `DELETE /profiles/{profile_id}` — Delete a profile and associated data.
-- `POST /reviews` — Request a new portfolio review for a profile.
-- `GET /reviews/{review_id}` — Retrieve a completed review.
-- `GET /reviews` — List reviews for the authenticated user (paginated).
+* `POST /auth/register`
+* `POST /auth/login`
+* `POST /profiles` — Create a profile with a resume and GitHub username.
+* `GET /profiles/{profile_id}` — Retrieve a profile.
+* `DELETE /profiles/{profile_id}` — Delete a profile and its associated data.
+* `POST /reviews` — Request a new portfolio review for a profile.
+* `GET /reviews/{review_id}` — Retrieve a completed review.
+* `GET /reviews` — List reviews for the authenticated user.
+
+The primary file I expect to modify is:
+
+* `docs/API.md`
+
 
 The only file I currently expect to modify is:
 
