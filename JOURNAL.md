@@ -26,7 +26,7 @@ The API documentation explains the available endpoints but does not include exam
 
 ## Week 8 — Reproduction & solution planning
 
-**Reproduction commit link:** [link to commit documenting the reproduced issue]
+**Reproduction commit link:** https://github.com/AishaErel/pathreview/commit/57ea620af7605d785e594f2b51c8ad121eb2ddef
 
 **Reproduction summary:**
 I started the application locally and successfully tested the POST /auth/register and POST /auth/login endpoints using curl. Although the endpoints work, docs/API.md does not provide example curl commands, requiring new developers to determine the request syntax themselves.
