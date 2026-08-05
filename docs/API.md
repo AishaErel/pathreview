@@ -56,7 +56,6 @@ Optional: To upload a resume, add the following flag to the command above:
 
 `GET /profiles/{profile_id}` — Retrieve a profile.
 
-`GET /profiles/{profile_id}` — Retrieve a profile.
 Profile ID was received from the previous command, save it please
 
 ```bash
