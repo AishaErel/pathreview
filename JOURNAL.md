@@ -52,7 +52,7 @@ The `POST /profiles` endpoint initially returned a `422` error when uploading a 
 
 ### Check-in 2 (end of week)
 
-**PR link:**
+**PR link:** https://github.com/ascherj/pathreview/pull/916
 
 **Branch:** `docs/117-API-docs-issue`
 
@@ -60,10 +60,10 @@ The `POST /profiles` endpoint initially returned a `422` error when uploading a 
 
 I updated `docs/API.md` by adding example `curl` commands for the authentication, health, profiles, and reviews endpoints. The examples use placeholder values and demonstrate how to authenticate and call protected endpoints using a bearer token.
 
-**Tests added or updated:**
+**Tests added or updated:** I used the tests already being provided
 
 No automated tests were added because this change only updates documentation. I manually verified the documented `curl` commands against the local API where applicable.
 
 **Self-review confirmation:** [ X] make check passes [ X] make test-unit passes (it fails 53 and passes 375, i don't know if 53 fails related with me or if they were already there)
 
-**Draft PR feedback received from:**
+**Draft PR feedback received from:** I opened a PR but nobody responded
