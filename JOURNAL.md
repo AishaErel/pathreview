@@ -31,8 +31,40 @@ The API documentation explains the available endpoints but does not include exam
 **Reproduction summary:**
 I started the application locally and successfully tested the POST /auth/register and POST /auth/login endpoints using curl. Although the endpoints work, docs/API.md does not provide example curl commands, requiring new developers to determine the request syntax themselves.
 
-**PLAN.md link:** https://github.com/AishaErel/pathreview/blob/docs/117-API-docs-issue/PLAN.md
+# **PLAN.md link:** https://github.com/AishaErel/pathreview/blob/docs/117-API-docs-issue/PLAN.md
 
-**Walkthrough video (recommended):**
+## Week 9 — Solution building & PR submission
 
-**Blockers or open questions:**
+### Check-in 1 (mid-week)
+
+**Current progress:**
+
+I updated `docs/API.md` by adding example `curl` commands for the documented API endpoints. I manually tested the authentication and profile endpoints locally to verify the request format, had some errors will fix them later.
+
+**Next steps:**
+
+Complete the remaining endpoint examples, review the documentation for consistency, run `make check` and `make test-unit`, open a draft PR, and submit the final pull request.
+
+**Blockers:**
+
+The `POST /profiles` endpoint initially returned a `422` error when uploading a resume PDF. Since the resume upload is optional, I verified the endpoint without a resume and documented the optional upload separately.
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:**
+
+**Branch:** `docs/117-API-docs-issue`
+
+**What you built:**
+
+I updated `docs/API.md` by adding example `curl` commands for the authentication, health, profiles, and reviews endpoints. The examples use placeholder values and demonstrate how to authenticate and call protected endpoints using a bearer token.
+
+**Tests added or updated:**
+
+No automated tests were added because this change only updates documentation. I manually verified the documented `curl` commands against the local API where applicable.
+
+**Self-review confirmation:** [ X] make check passes [ X] make test-unit passes (it fails 53 and passes 375, i don't know if 53 fails related with me or if they were already there)
+
+**Draft PR feedback received from:**
