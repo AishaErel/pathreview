@@ -67,3 +67,39 @@ No automated tests were added because this change only updates documentation. I 
 **Self-review confirmation:** [ X] make check passes [ X] make test-unit passes (it fails 53 and passes 375, i don't know if 53 fails related with me or if they were already there)
 
 **Draft PR feedback received from:** I opened a PR but nobody responded
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [x] No 
+
+**Summary of feedback:**
+
+I requested peer feedback on my draft PR, but I have not received a review yet.
+
+**How you responded:**
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+
+Testing the API endpoints locally was harder than I expected. I had to make sure the local environment and dependencies were running correctly, understand how authentication worked, and determine the correct request formats for each endpoint. I also ran into issues with the optional PDF resume upload and had to investigate why the profile endpoint was returning errors before confirming that the endpoint worked without a resume.
+
+**What did you learn about working in a large codebase?**
+
+I learned that working in an existing codebase requires understanding the project's existing structure and conventions before making changes. Even though my change was documentation-focused, I still needed to understand how the actual API endpoints worked so that the `curl` examples were accurate. I also learned the importance of working on the correct branch, keeping commits organized, resolving Git conflicts, and testing changes before opening a pull request.
+
+**How did AI tools help — and where did they fall short?**
+
+AI tools helped me understand unfamiliar Git commands, troubleshoot errors, interpret API responses, and create and test `curl` commands. They were also useful for helping me understand the workflow for authentication and protected API endpoints. 
+
+**What would you do differently if you started over?**
+
+I would review the API documentation, contribution guidelines, and endpoint requirements earlier before starting the implementation. I would also make sure my local branch was synchronized with the remote branch before making changes. 
+**What are you most proud of from this module?**
+
+I am most proud of becoming more comfortable working through the full contribution process in an existing codebase. I was able to reproduce the documentation gap, create a plan, test the API locally, add practical `curl` examples, work through Git and authentication issues, and open a pull request with my changes.
+
