@@ -74,7 +74,7 @@ No automated tests were added because this change only updates documentation. I 
 
 **Feedback received:** [ ] Yes  [x] No 
 
-**Summary of feedback:**
+**Summary of feedback:** No reviewer feedback was provided for Summer 2026, as noted in the course instructions.
 
 I requested peer feedback on my draft PR, but I have not received a review yet.
 
